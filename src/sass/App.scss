@@ -1,0 +1,56 @@
+.logo-container {
+  display: flex;
+}
+
+.app-logo {
+  max-width: 120px;
+}
+
+.bootstrap-container {
+  max-width: 100%;
+  display: flex;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+a.nav-link {
+  color: rgb(255, 255, 255);
+}
+
+// Home
+
+.home-container {
+  background-image: url("../images/boat-gef90573d6_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hotel-container {
+  background-color: rgba(165, 165, 165, 0.784);
+}
+
+.link-page {
+  color: black;
+}
+
+// Calendar
+.react-calendar { 
+  width: 700px;
+  max-width: 100%;
+  background-color: rgb(131, 125, 125);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+ }
+
+ .react-calendar__navigation button {
+  color: white;
+  min-width: 44px;
+  background:none;
+  font-size: 16px;
+  margin-top: 8px;
+ }
